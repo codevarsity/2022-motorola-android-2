@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/phoneCallButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="makePhoneCall"
+        android:text="Make Phone Call" />
+
+    <Button
+        android:id="@+id/launchSecondButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="launchSecond"
+        android:text="Launch Second" />
+
+    <Button
+        android:id="@+id/launchBrowser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="launchBrowser"
+        android:text="Launch Browser" />
+
+    <Button
+        android:id="@+id/launchServiceButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="launchService"
+        android:text="Launch Service" />
+
+    <Button
+        android:id="@+id/cameraButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="camera"
+        android:text="Camera" />
+
+    <Button
+        android:id="@+id/finishButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="finishButton"
+        android:text="Finish" />
+</LinearLayout>
